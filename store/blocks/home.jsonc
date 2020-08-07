@@ -1,6 +1,11 @@
 {
   "store.home": {
-    "blocks": ["flex-layout.row","rich-text", "info-card#button-right", "info-card#button-left"]
+    "blocks": [
+      "flex-layout.row",
+      "rich-text",
+      "info-card#button-right",
+      "info-card#button-left"
+    ]
   },
   "rich-text": {
     "props": {
@@ -19,7 +24,7 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "vintage" 
+      "blockClass": "vintage"
     }
   },
   "info-card#button-left": {
@@ -33,17 +38,14 @@
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "metal" 
+      "blockClass": "metal"
     }
   },
-   "flex-layout.row":{
-    "children": [
-      "info-card#rethink",
-      "flex-layout.col"
-    ]
+  "flex-layout.row": {
+    "children": ["info-card#rethink", "flex-layout.col"]
   },
-  
- "info-card#rethink": {
+
+  "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
       "isFullModeStyle": true,
@@ -52,11 +54,8 @@
       "textPosition": "center"
     }
   },
-  "flex-layout.col":{
-    "children": [
-      "image#electronics",
-      "image#major-appliance"
-    ]
+  "flex-layout.col": {
+    "children": ["image#electronics", "image#major-appliance"]
   },
   "image#electronics": {
     "props": {
