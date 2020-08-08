@@ -27,7 +27,7 @@
         { "url": "https://instagram.com/foo", "name": "Instagram" }
       ],
       "showInColor": true
-    }
+    } 
   },
   "accepted-payment-methods": {
     "props": {
