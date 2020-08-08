@@ -6,7 +6,7 @@
     "blocks": ["search-result-layout.desktop"]
   },
   "search-result-layout.desktop": {
-    "blocks": [
+    "children": [
       "breadcrumb.search",
       "search-title.v2",
       "total-products.v2",
@@ -15,6 +15,9 @@
       "search-content",
       "filter-navigator.v3",
       "search-fetch-more"
-    ]
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
   }
 }
