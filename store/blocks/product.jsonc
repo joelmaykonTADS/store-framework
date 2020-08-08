@@ -67,7 +67,8 @@
   },
   "product-brand": {
     "props": {
-      "displayMode": "text"
+      "displayMode": "logo",
+      "height":"30px"
     }
   }
 }
