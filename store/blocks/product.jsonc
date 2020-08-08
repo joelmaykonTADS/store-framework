@@ -64,5 +64,10 @@
       "showValueForVariation": "image",
       "showVariationsErrorMessage": true
     }
+  },
+  "product-brand": {
+    "props": {
+      "displayMode": "text"
+    }
   }
 }
